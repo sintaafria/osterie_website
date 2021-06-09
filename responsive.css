@@ -1,1 +1,70 @@
-responsive.css
+@media all and (max-width: 1000px) {
+	.top-wrapper {
+		text-align: left;
+  	}
+	.top-wrapper h1 {
+		font-size: 20px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 10px;
+	}
+/*	.section-title{
+		font-size: px;
+	}*/
+
+/*	.flex-menu {
+		width: 25%;
+	}*/
+	.contenst-item{
+		width: 50%;
+		margin-bottom: 20px;
+		/*margin: 0 auto;*/
+	}
+
+	/*.header-logo {
+		font-size: 20px;
+	}
+
+	.header-right {
+		margin-right: -10px;
+}*/
+}
+
+@media all and (max-width: 670px) {
+
+	.header-right {
+		display: none;
+	}
+
+	span.menu-icon {
+		display: block;
+	}
+
+	.top-wrapper {
+		text-align: left;
+  	}
+	.top-wrapper h1 {
+		font-size: 20px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 10px;
+	}
+/*	.section-title{
+		font-size: 1.5px;
+	}*/
+
+/*	.flex-menu {
+		width: 100%;
+	}
+	.flex-menu {
+		flex-wrap: wrap;
+		flex-direction: column;*/
+	}
+	.contenst-item {
+		width: 50%;
+		margin-bottom: 20px;
+	/*margin: 0 auto;*/
+	}
+}
