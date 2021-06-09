@@ -73,7 +73,7 @@ header {
 
 .header-right a {
   line-height: 65px;
-  padding: 0 25px;
+  padding: 10px 25px 0 25px;
   color: black;
   display: block;
   float: left;
@@ -98,12 +98,6 @@ header {
   /*box-sizing: border-box;*/
 }
 
-.main{
-  margin-left: 100px;
-  padding:100px 0 0px 0;
-  opacity:0.9;
-}
-
 .section-title {
   font-family: "Copperplate", fantasy;
   font-size:28px;
@@ -117,7 +111,7 @@ header {
   float:left;
   /*margin-right:50px;*/
   flex: auto;
-  width: 33%;
+  width: 30%;
   /*box-sizing: border-box;*/
 }
 
