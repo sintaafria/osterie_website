@@ -1,4 +1,4 @@
-@media all and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 	.top-wrapper {
 		text-align: left;
   	}
@@ -35,7 +35,7 @@
 }
 }
 
-@media all and (max-width: 670px) {
+@media screen and (max-width: 670px) {
 
 	.header-right a {
 		display: none;
@@ -59,6 +59,14 @@
 /*	.section-title{
 		font-size: 1.5px;
 	}*/
+
+	.top-wrapper h1 {
+		font-size: 15px;
+	}
+
+	.top-wrapper h2 {
+		font-size: 8px;
+	}
 
 	.flex-menu {
 		flex-wrap: wrap;
