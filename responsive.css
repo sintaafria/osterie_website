@@ -22,23 +22,25 @@
 		/*margin: 0 auto;*/
 	}
 
-	/*.header-logo {
-		font-size: 20px;
+	.header-logo {
+		font-size: 30px;
 	}
 
-	.header-right {
-		margin-right: -10px;
-}*/
+	.header-right a {
+		line-height: 70px;
+		padding: 5px 10px 0 5px;
+}
 }
 
 @media all and (max-width: 670px) {
 
-	.header-right {
+	.header-right a {
 		display: none;
 	}
 
 	span.menu-icon {
 		display: block;
+		text-align: right;
 	}
 
 	.top-wrapper {
